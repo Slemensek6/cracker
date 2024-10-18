@@ -68,7 +68,7 @@ void hash_rate_counter() {
 }
 
 int main(int argc, char* argv[]) {
-    std::string target_hash = "c878c9e291c323c0966e77d15588cfd4d74c52808a2e582e9b41003f08b4d6fd";  // Zamenjaj s hash-om, ki ga iščeš
+    std::string target_hash = "75bdcb6716134da0819cf0ad11173594c6ccf9c2539a879503e0fa4c0893dffc";  // Zamenjaj s hash-om, ki ga iščeš
     int numThreads = std::stoi(argv[1]);  // Tukaj določi število niti (lahko ga spremeniš glede na želje)
 
     // Ustvari nit za spremljanje hashrate
